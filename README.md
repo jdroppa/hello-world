@@ -1,2 +1,2 @@
 # hello-world
-Start down the GitHub path 
+Starting down the GitHub path as the seven drawfs leave the mine of red
