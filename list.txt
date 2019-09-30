@@ -1,0 +1,10 @@
+Validation Plan
+Test Plan
+System Overview
+Config Spec
+Design Spec (may be contained in HP ALM as design elements)
+Security Plan and Security Admin SOP (combined)
+System Admin SOP
+DRP
+BCP
+Val/TSR (combined)
