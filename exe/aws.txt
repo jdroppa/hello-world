@@ -1,0 +1,26 @@
+aws emr ssh --cluster-id j-2BRJOZ9SLEHGB --key-pair-file C:\Users\rm95499\Documents\Keyfolder\jdpvtkey.ppk
+
+
+aws s3 sync s3://djm-lilly-curated/dbpedia s3://jd-lilly-curated/dbpedia 
+aws s3 sync s3://djm-lilly-landing s3://jd-lilly-landing
+
+
+aws emr ssh --cluster-id j-2BRJOZ9SLEHGB --key-pair-file C:\Users\rm95499\Documents\Keyfolder\jd.pem
+
+aws s3 sync s3://djm-lilly-landing s3://%STACK_NAME%-landing
+
+BUCKET_LANDING = "jd-lilly-landing"
+BUCKET_CURATED = "jd-lilly-curated"
+
+COE - Center of Excellance
+GICOE - Global Information Center of Excellence
+GDM - Global Data Management
+
+For FACTS with the exception of the groups below are used for administrative purposes. 
+
+INDY_Facts_guiG_GG - Used to grant users access to Citrix system to access FACTS GUI.
+
+lrlit_facts_support_ng - For the FACTS support team who would have administrative access in the groups.
+
+
+https://collab.lilly.com/sites/tfstogithubmigrationsupport/Shared%20Documents/ITLIB-CSV-016408-TFS Bridging Document
